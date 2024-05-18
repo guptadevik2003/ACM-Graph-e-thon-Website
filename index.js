@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: false, limit: '50mb' }))
 // useRoutes
 app.use('/', rootRoute)
 
-const port = 7280
+const port = process.env.PORT || 7280
 app.listen(port, async () => {
   console.log(`Server listening on port ${port}`)
 })
