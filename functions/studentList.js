@@ -156,6 +156,7 @@ module.exports = [
 "Vartika Sharma",
 "Abhinav Bansal",
 "Devik Gupta",
+"Kratika Bhardwaj",
 "Pearl Kaushik",
 "Sarthak Arora",
 "Yash Kansal",
