@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --dark-color: #212121;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url('/background.jpg');
+  /* background-color: yellow; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #212121;
+}
+
+.container {
+  position: relative;
+  top: -56px;
+  max-width: 600px;
+  min-width: 300px;
+  min-height: 55vh;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 1.0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+#certForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+#name {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+#university {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 40px;
+  /* width: 250px !important; */
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#nameLabel {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding-bottom: 4px;
+  color: #aaa;
+}
+
+#universityLabel {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding-bottom: 4px;
+  color: #aaa;
+  padding-top: 35px;
+}
+
+#submit {
+  color: #fff;
+  background-color: #29559c;
+  height: 40px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  border: none;
+  outline: none;
+  margin-top: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#contact {
+  font-size: 14px;
+  color: #666;
+}
+
+#contact a {
+  color: #555;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+#develop {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+
+#develop a {
+  text-decoration: underline;
+  color: #555;
+  font-weight: 600;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+}
