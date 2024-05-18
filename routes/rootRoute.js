@@ -5,6 +5,7 @@ const removeExtraSpace = require('../functions/removeExtraSpace')
 const editCert = require('../functions/editCert')
 const titleCase = require('../functions/titleCase')
 const { PDFDocument, rgb } = require('pdf-lib')
+const studentList = require('../functions/studentList')
 
 router.get('/', async (req, res) => {
   res.sendFile('index.html')
@@ -22,13 +23,14 @@ router.post('/fetchCertificate', async (req, res) => {
   
   if(!['GEU','GEHU'].includes(university)) return res.json({ success: false, error: 'wrong university entered!' })
 
-  let students = fs.readFileSync('students.txt', 'utf-8')
+  let students = studentList
   
-  students = students.toLowerCase()
-  students = students.split('\r\n')
-  students = students.filter(s => s!=='')
+  // students = students.toLowerCase()
+  // students = students.split('\r\n')
+  // students = students.filter(s => s!=='')
   students.forEach((it, ind) => {
     students[ind] = removeExtraSpace(students[ind])
+    students[ind] = students[ind].toLowerCase()
   })
 
   let formattedName = removeExtraSpace(name).toLowerCase()
