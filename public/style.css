@@ -25,7 +25,8 @@ body {
   top: -56px;
   max-width: 600px;
   min-width: 300px;
-  min-height: 55vh;
+  min-height: 420px;
+  max-height: 600px;
   padding: 20px;
   background-color: rgba(255, 255, 255, 1.0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
