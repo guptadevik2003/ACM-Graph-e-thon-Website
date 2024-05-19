@@ -163,5 +163,7 @@ module.exports = [
 "Supriya Kumari",
 "Suryansh",
 "Riya Bhatt",
-"Aditya Pratap"
+"Aditya Pratap",
+"Praveen Kumar",
+"Khushal Sehgal"
 ]
