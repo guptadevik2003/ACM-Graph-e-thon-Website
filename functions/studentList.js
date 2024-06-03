@@ -165,5 +165,7 @@ module.exports = [
 "Riya Bhatt",
 "Aditya Pratap",
 "Praveen Kumar",
-"Khushal Sehgal"
+"Khushal Sehgal",
+"Paridhi Goel",
+"Ayush Tomar",
 ]
